@@ -3,7 +3,7 @@ import '../Styles/Header.css'
 
 function Header() {
   return (
-    <div className='header'>Memory Game</div>
+    <div className='header'>Meme-ory Game</div>
   )
 }
 
