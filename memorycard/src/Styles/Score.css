@@ -1,21 +1,29 @@
 .score-container {
   display: grid;
   grid-area: 2 / 1 / 3 / 5;
-  border: 1px solid red;
+  /* border-top: 1px solid black;
+  border-bottom: 1px solid black; */
   box-sizing: border-box;
   grid-template-columns: 1fr 1fr;
+  cursor: default;
 }
 .current-score {
   grid-column: 1 / 2;
-  border: 1px solid red;
   box-sizing: border-box;
   font-size: 1rem;
-  padding: 1rem;
+  background: #FF0E0A;
+  color: seashell;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .high-score {
   grid-column: 2 /3;
-  border: 1px solid red;
   box-sizing: border-box;
   font-size: 1rem;
-  padding: 1rem;
+  background: #FF0E0A;
+  color: seashell;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
