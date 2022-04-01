@@ -1,7 +1,12 @@
 .header {
   grid-area: 1 / 1 / 2 / 6;
-  border: 1px solid red;
   box-sizing: border-box;
   font-size: 4rem;
   padding: 1rem;
+  padding-left: 2rem;
+  color: seashell;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
