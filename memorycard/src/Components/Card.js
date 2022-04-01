@@ -4,7 +4,12 @@ function Card(props) {
   return (
     <div className="card-container" onClick={(event) => props.handleClick(event)}>
     {props.cards.map((e, index) => {
-      return <div key={index} className={`card${index}`} data-id={e.cardId}>{e.cardId}</div>
+      return <div key={index}>
+      <div className={`card`} data-id={e.cardId}>
+      <img src={e.image} alt="meme" className={`card${index}-image`} data-id={e.cardId}/>
+      <div className={`card${index}-text`} data-id={e.cardId}>{e.text}</div>
+      </div>
+      </div>
     })}
     </div>
   )
