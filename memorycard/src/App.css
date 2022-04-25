@@ -5,7 +5,7 @@
   height: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: .5fr .2fr repeat(3, 1fr);
+  grid-template-rows: 0.5fr 0.2fr repeat(3, 1fr);
   box-sizing: border-box;
 }
 
@@ -17,7 +17,7 @@
   gap: 1fr;
   box-sizing: border-box;
   margin: 1rem;
-  }
+}
 
 @media screen and (max-width: 820px) {
   .card-container {
@@ -35,25 +35,36 @@ img {
   max-height: 150px;
 }
 
-.card{
+.card {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 5px solid #FF0E0A;
+  border: 5px solid #ff0e0a;
   border-radius: 10px;
-  margin: .2rem;
+  margin: 0.2rem;
   cursor: pointer;
-  background: #E34234;
+  background: #e34234;
 }
 
 .card:hover {
   transform: scale(1.02);
-  opacity: .7
+  opacity: 0.7;
 }
 
-.card0-text, .card1-text, .card2-text, .card3-text, .card4-text, .card5-text, .card6-text,.card7-text, .card8-text, .card9-text, .card10-text, .card11-text {
+.card0-text,
+.card1-text,
+.card2-text,
+.card3-text,
+.card4-text,
+.card5-text,
+.card6-text,
+.card7-text,
+.card8-text,
+.card9-text,
+.card10-text,
+.card11-text {
   min-height: 50px;
   display: flex;
   align-items: center;
