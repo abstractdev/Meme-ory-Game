@@ -1,4 +1,5 @@
 Meme-ory Game
+![Alt text](./memeory.png "Title")
 ============
 
 A memory game created with React to practice functional components and hooks.
