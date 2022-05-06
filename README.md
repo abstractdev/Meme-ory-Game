@@ -1,5 +1,5 @@
 Meme-ory Game [LIVE](https://abstractdev.github.io/Meme-ory-Game/)
-![Alt text](./memeory.png "Title")
+![Alt text](./memeory.png "Meme-ory Game")
 ============
 
 A memory game created with React to practice functional components and hooks.
