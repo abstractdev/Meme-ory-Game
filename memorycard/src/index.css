@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #960200;
   font-family: "Ubuntu Mono", monospace;
+  width: 100vw;
+  height: 100vh;
 }
