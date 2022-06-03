@@ -39,6 +39,16 @@ function App() {
     shuffleCards();
   }, []);
 
+  useEffect(() => {
+    if (clickedCards.length === 12) {
+      setModalScore(currentScore);
+      setModalIsVisible(true);
+      setScoreHistory([...scoreHistory, currentScore]);
+      setCurrentScore(0);
+      setClickedCards([]);
+    }
+  }, [clickedCards]);
+
   const handleClick = (event) => {
     if (event.target.dataset.id) {
       //match dataset id and card id and add to clicked state
