@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/meme-ory-game/static/css/main.ffb2bf1c.css",
-    "main.js": "/meme-ory-game/static/js/main.d13c22e4.js",
+    "main.js": "/meme-ory-game/static/js/main.92e51315.js",
     "index.html": "/meme-ory-game/index.html",
     "main.ffb2bf1c.css.map": "/meme-ory-game/static/css/main.ffb2bf1c.css.map",
-    "main.d13c22e4.js.map": "/meme-ory-game/static/js/main.d13c22e4.js.map"
+    "main.92e51315.js.map": "/meme-ory-game/static/js/main.92e51315.js.map"
   },
   "entrypoints": [
     "static/css/main.ffb2bf1c.css",
-    "static/js/main.d13c22e4.js"
+    "static/js/main.92e51315.js"
   ]
 }
