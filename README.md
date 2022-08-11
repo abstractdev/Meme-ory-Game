@@ -1,6 +1,5 @@
-Meme-ory Game
-[![Meme-ory Game](/memeory.png)](https://abstractdev.github.io/meme-ory-game/)
-============
+# [Meme-ory Game](https://abstractdev.github.io/meme-ory-game/)
+https://user-images.githubusercontent.com/97710625/184054757-089c5807-e11c-47a7-ba0f-b626a892bc4e.mp4
 
 [Live Demo](https://abstractdev.github.io/meme-ory-game/)</br>
 A memory game created with React to practice functional components and hooks.
